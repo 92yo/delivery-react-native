@@ -14,7 +14,7 @@ import { COLORS, icons } from "../constants";
 const Tab = createBottomTabNavigator();
 
 const TabBarCustomButton = ({ accessibilityState, children, onPress }) => {
-  var isSelected = accessibilityState.selected;
+  let isSelected = accessibilityState.selected;
 
   if (isSelected) {
     return (
@@ -100,9 +100,7 @@ const Tabs = () => {
           elevation: 0,
         },
       }}
-      tabBar={(props) => {
-        <CustomTabBar props={props} />;
-      }}
+      tabBar={(props) => <CustomTabBar props={props} />}
     >
       <Tab.Screen
         name="Home"
