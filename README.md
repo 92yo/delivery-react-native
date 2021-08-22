@@ -3,7 +3,7 @@
 ## App made with react-native
 
 ### If you would like to clone this app, make sure to configure and add your own Google Api Key in `constants/maps.js`.
-The one in commit does not work anymore
+### My Api key in commit does not work anymore 
 
 #### links that might help you do as such: 
 https://docs.expo.dev/versions/latest/sdk/map-view/
